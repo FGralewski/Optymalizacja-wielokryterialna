@@ -1,0 +1,269 @@
+#################################
+##         Symulacja 1         ##
+#################################
+ampl: model 'C:\Users\filip\Desktop\owd_celowe.mod';
+CPLEX 12.7.0.0: optimal integer solution; objective 0
+4 MIP simplex iterations
+0 branch-and-bound nodes
+No basis.
+zuzycieWody :=
+1 1   175
+1 2   150
+2 1   175
+2 2   150
+3 1   175
+3 2   150
+;
+poziomKoncowyWody :=
+0 1   1900
+0 2    850
+1 1   1380
+1 2   1350
+2 1   1335
+2 2   1302.5
+3 1   1340
+3 2   1260
+;
+wygenerowanaEnergia :=
+1 1   35000
+1 2   60000
+2 1   35000
+2 2   60000
+3 1   35000
+3 2   60000
+;
+zrzut :=
+1 1   545
+1 2    22.5
+2 1     0
+2 2     0
+3 1     0
+3 2     0
+;
+czyBonus [*] :=
+1  1
+2  1
+3  1
+;
+zysk = 6e+06
+zyskPlus = 0
+zyskMinus = 0
+potencjalWytworczy = 2600
+potencjalWytworczyPlus = 0
+potencjalWytworczyMinus = 0
+
+#################################
+##         Symulacja 2         ##
+#################################
+ampl: model 'C:\Users\filip\Desktop\owd_celowe.mod';
+CPLEX 12.7.0.0: optimal integer solution; objective 77.5
+5 MIP simplex iterations
+0 branch-and-bound nodes
+No basis.
+zuzycieWody :=
+1 1   175
+1 2   150
+2 1   175
+2 2   150
+3 1   175
+3 2   150
+;
+poziomKoncowyWody :=
+0 1   1900
+0 2    850
+1 1   1402.5
+1 2   1350
+2 1   1357.5
+2 2   1302.5
+3 1   1362.5
+3 2   1260
+;
+wygenerowanaEnergia :=
+1 1   35000
+1 2   60000
+2 1   35000
+2 2   60000
+3 1   35000
+3 2   60000
+;
+zrzut :=
+1 1   522.5
+1 2     0
+2 1     0
+2 2     0
+3 1     0
+3 2     0
+;
+czyBonus [*] :=
+1  1
+2  1
+3  1
+;
+zysk = 6e+06
+zyskPlus = 0
+zyskMinus = 0
+potencjalWytworczy = 2700
+potencjalWytworczyPlus = 0
+potencjalWytworczyMinus = 77.5
+
+#################################
+##         Symulacja 3         ##
+#################################
+ampl: model 'C:\Users\filip\Desktop\owd_celowe.mod';
+CPLEX 12.7.0.0: optimal integer solution; objective 620000
+5 MIP simplex iterations
+0 branch-and-bound nodes
+No basis.
+zuzycieWody :=
+1 1   175
+1 2   150
+2 1   175
+2 2    72.5
+3 1   175
+3 2   150
+;
+poziomKoncowyWody :=
+0 1   1900
+0 2    850
+1 1   1825
+1 2    927.5
+2 1   1780
+2 2    957.5
+3 1   1785
+3 2    915
+;
+wygenerowanaEnergia :=
+1 1   35000
+1 2   60000
+2 1   35000
+2 2   29000
+3 1   35000
+3 2   60000
+;
+zrzut :=
+1 1   100
+1 2     0
+2 1     0
+2 2     0
+3 1     0
+3 2     0
+;
+czyBonus [*] :=
+1  1
+2  1
+3  1
+;
+zysk = 6e+06
+zyskPlus = 0
+zyskMinus = 620000
+potencjalWytworczy = 2700
+potencjalWytworczyPlus = 0
+potencjalWytworczyMinus = 0
+
+#################################
+##         Symulacja 4         ##
+#################################
+ampl: model 'C:\Users\filip\Desktop\owd_celowe.mod';
+CPLEX 12.7.0.0: optimal integer solution; objective 1000077.5
+5 MIP simplex iterations
+0 branch-and-bound nodes
+No basis.
+zuzycieWody :=
+1 1   175
+1 2   150
+2 1   175
+2 2   150
+3 1   175
+3 2   150
+;
+poziomKoncowyWody :=
+0 1   1900
+0 2    850
+1 1   1402.5
+1 2   1350
+2 1   1357.5
+2 2   1302.5
+3 1   1362.5
+3 2   1260
+;
+wygenerowanaEnergia :=
+1 1   35000
+1 2   60000
+2 1   35000
+2 2   60000
+3 1   35000
+3 2   60000
+;
+zrzut :=
+1 1   522.5
+1 2     0
+2 1     0
+2 2     0
+3 1     0
+3 2     0
+;
+czyBonus [*] :=
+1  1
+2  1
+3  1
+;
+zysk = 7e+06
+zyskPlus = 0
+zyskMinus = 1e+06
+potencjalWytworczy = 2700
+potencjalWytworczyPlus = 0
+potencjalWytworczyMinus = 77.5
+
+#################################
+##         Symulacja 5         ##
+#################################
+ampl: model 'C:\Users\filip\Desktop\owd_celowe.mod';
+CPLEX 12.7.0.0: optimal integer solution; objective 0.1
+5 MIP simplex iterations
+0 branch-and-bound nodes
+No basis.
+zuzycieWody :=
+1 1    0
+1 2    0
+2 1    0
+2 2    0
+3 1    0
+3 2   62.5
+;
+poziomKoncowyWody :=
+0 1   1900
+0 2    850
+1 1   1200
+1 2    800
+2 1   1330
+2 2    800
+3 1   1200
+3 2    800
+;
+wygenerowanaEnergia :=
+1 1       0
+1 2       0
+2 1       0
+2 2       0
+3 1       0
+3 2   25000
+;
+zrzut :=
+1 1   900
+1 2   990
+2 1     0
+2 2    15
+3 1   310
+3 2   267.5
+;
+czyBonus [*] :=
+1  0
+2  0
+3  0
+;
+zysk = 5e+05
+zyskPlus = 0
+zyskMinus = 0
+potencjalWytworczy = 1000
+potencjalWytworczyPlus = 1000
+potencjalWytworczyMinus = 0
